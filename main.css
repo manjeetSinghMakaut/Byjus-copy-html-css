@@ -14,6 +14,20 @@ body{
     overflow-x: hidden;
     
 }
+body::-webkit-scrollbar {
+    width: 4px;
+               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: rgb(253, 241, 241);        /* color of the tracking area */
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(156, 156, 156);    /* color of the scroll thumb */
+          /* roundness of the scroll thumb */  /* creates padding around scroll thumb */
+  }
+
 /*-------------------------------------------------
         navbar
         */
@@ -22,19 +36,19 @@ nav{
     align-items: center;
     justify-content: center;
     background-color: #813588;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 0.8rem;
     
 
 }                    
 nav .menu{
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 nav .logo img{
     width: 10rem;
     cursor: pointer;
-    margin-right:30px;
+    margin-right:25px;
     padding: 12px;
 }
 nav .menu a{
@@ -42,7 +56,7 @@ nav .menu a{
     margin-left: 14px;
     text-decoration: none;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 12px;
 
 }
 nav .menu a img{
@@ -74,6 +88,7 @@ nav .menu .call-icon,.SearchIcon{
 .homebannerbg{
     height: 83vh;
     width: auto;
+   
 }
 .hero .hero-bg{
     width: 100vh;
@@ -88,16 +103,18 @@ nav .menu .call-icon,.SearchIcon{
     height: auto;
     left: 0;
     bottom: 2px;
-    z-index: 1008;
+    z-index: 1009;
     margin-left: 30px;
     margin-top: 90px;
+    
+    
    
   
    
 }
 .hero .form{
     position: absolute;
-    z-index: 1009;
+    z-index: 1010;
     right: 0;
     max-width: 400px;
     height: 530px;
@@ -107,6 +124,7 @@ nav .menu .call-icon,.SearchIcon{
     text-align: center;
     background: #fcfcfc;
     padding: 15px 25px 25px 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     
        
 }
@@ -182,7 +200,7 @@ nav .menu .call-icon,.SearchIcon{
     font-weight: 600;
     color: white;
     border: transparent;
-    border-radius: 10px;
+    border-radius: 5px;
     background-image: linear-gradient(to right, #FF8E32, #FF5263);
     cursor: pointer;
 }
@@ -242,9 +260,11 @@ nav .menu .call-icon,.SearchIcon{
 }
 .hero .curves{
     position:absolute;
-    z-index: 1008;
-    margin-top: -28px;
+    z-index: 1009;
+    margin-top: -30px;
     width: 101%;
+   
+    
 }
 .test{
     height: 700px;
