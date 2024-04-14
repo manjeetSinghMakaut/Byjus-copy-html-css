@@ -12,8 +12,13 @@
 body{
     max-width: 100vw;
     overflow-x: hidden;
+    height:100%;
+     width:100%;
     
 }
+
+
+  
 body::-webkit-scrollbar {
     width: 4px;
                /* width of the entire scrollbar */
@@ -86,26 +91,24 @@ nav .menu .call-icon,.SearchIcon{
 
 }
 .homebannerbg{
-    height: 83vh;
-    width: auto;
-   
-}
-.hero .hero-bg{
-    width: 100vh;
+    width: 100%;
     position: relative;
-    z-index: 1000;
+    width: 200vh;        
+    z-index: 1010;
     height: 100%;
 }
+
 
 .hero .girl{
     position: absolute;
     width: 540px;
-    height: auto;
-    left: 0;
-    bottom: 2px;
-    z-index: 1009;
-    margin-left: 30px;
+    height: 480px;
+    left: 0px;
+    bottom: -35px;
+    z-index: 1010;
+    margin-left: 20px;
     margin-top: 90px;
+    
     
     
    
@@ -114,11 +117,11 @@ nav .menu .call-icon,.SearchIcon{
 }
 .hero .form{
     position: absolute;
-    z-index: 1010;
+    z-index: 1011;
     right: 0;
     max-width: 400px;
     height: 530px;
-    margin-top: -31.5rem;
+    margin-top: -33rem;
     margin-right: 3rem;
     border-radius: 20px;
     text-align: center;
@@ -260,12 +263,25 @@ nav .menu .call-icon,.SearchIcon{
 }
 .hero .curves{
     position:absolute;
-    z-index: 1009;
-    margin-top: -30px;
-    width: 101%;
+    z-index: 1010;
+    margin-top: -35px;
+    width: 100vw;
+    
+    
    
     
 }
-.test{
-    height: 700px;
+/* ------------------------------------------sec2----------------------------- */
+.sec2 h2{
+   text-align: center;
+   margin-top: 40px;
+   padding-left: 320px;
+   padding-right: 320px;
+}
+
+.sec2 .title{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 200px;
+
 }
