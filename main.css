@@ -51,21 +51,21 @@ nav .menu{
 }
 
 nav .logo img{
-    width: 10rem;
+    width:10rem;
     cursor: pointer;
-    margin-right:25px;
+    margin-right:10px;
     padding: 12px;
 }
 nav .menu a{
     color: #ffc846;
-    margin-left: 14px;
+    margin-left: 16px;
     text-decoration: none;
     cursor: pointer;
     font-size: 12px;
 
 }
 nav .menu a img{
-    width: 18px;
+    width: 20px;
     margin-bottom: -4px;
     transform: rotate(90deg);
 }
@@ -91,51 +91,52 @@ nav .menu .call-icon,.SearchIcon{
 
 }
 .homebannerbg{
-    width: 100%;
-    position: relative;
-    width: 200vh;        
-    z-index: 1010;
+    width: 100%;     
+    position: absolute;
+    object-fit: cover;
+    display: inline-flex;
     height: 100%;
+
+}
+
+.hero {
+    position: relative;
+    height: 557px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
 }
 
 
 .hero .girl{
-    position: absolute;
     width: 540px;
-    height: 480px;
-    left: 0px;
-    bottom: -35px;
-    z-index: 1010;
-    margin-left: 20px;
-    margin-top: 90px;
-    
-    
-    
-   
-  
-   
+    height: 440px;
+    z-index: 1;
+    margin-top: 114px;
+    margin-left: 12rem;
 }
 .hero .form{
-    position: absolute;
-    z-index: 1011;
+    
+    margin-top: 20px;
+    z-index: 3;
     right: 0;
-    max-width: 400px;
-    height: 530px;
-    margin-top: -33rem;
-    margin-right: 3rem;
-    border-radius: 20px;
+    max-width: 500px;
+    height: 534px;
+    margin-right: 12rem;
+    border-radius: 16px;
     text-align: center;
     background: #fcfcfc;
-    padding: 15px 25px 25px 25px;
+    padding: 20px 25px 25px 25px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     
-       
 }
+       
+
 
 .hero .top{
     color: #2B2B2B;
     font-size: 1.4rem;
-    margin-top: 0;
+    margin-top: 5;
     margin-bottom: 8px;
     font-weight: 500;
 }
@@ -157,7 +158,23 @@ nav .menu .call-icon,.SearchIcon{
     margin-bottom: 25px;
     padding: 8px 8px;
     height: 2.55rem;
+    border-radius: 8px;
+    
+    
+    
 }
+::placeholder {
+    color: rgb(158, 153, 153);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 13.5px;
+  }
+
+input:focus {
+    outline: none;
+    
+}
+
 .buttons-on-off{
     display: block;
 }
@@ -188,7 +205,11 @@ nav .menu .call-icon,.SearchIcon{
     border: 1px solid rgb(236, 230, 230);
     font-weight: 500;
     text-decoration: none;
-    box-shadow: rgba(149, 157, 165, 0.2);
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555555;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background-image: none;
     
 }
 .form .Book-class{
@@ -263,13 +284,11 @@ nav .menu .call-icon,.SearchIcon{
 }
 .hero .curves{
     position:absolute;
-    z-index: 1010;
+    left: 0;
+    z-index: 2;
     margin-top: -35px;
     width: 100vw;
-    
-    
-   
-    
+    bottom: 0;
 }
 /* ------------------------------------------sec2----------------------------- */
 .sec2 h2{
