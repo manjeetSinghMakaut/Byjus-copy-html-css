@@ -141,15 +141,18 @@ nav .menu .call-icon,.SearchIcon{
     font-weight: 500;
 }
 .hero .middle{
+    
     font-size: 0.8rem;
-    color: #666;
+    color: #524f4f;
     margin: 0 0 8px;
+    font-weight: 400;
 }
 .hero .bottom{
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     font-size: 16px;
+    color: #333;
 }
 
 
@@ -196,6 +199,7 @@ input:focus {
     font-weight: 600;
     margin-bottom: 1rem;
     font-size: 16px;
+    color: #333;
     
 }
 .form .input{
@@ -291,15 +295,22 @@ input:focus {
     bottom: 0;
 }
 /* ------------------------------------------sec2----------------------------- */
+.sec2{
+    height: 557px;
+    
+}
 .sec2 h2{
    text-align: center;
-   margin-top: 40px;
+   margin-top: 20px;
    padding-left: 320px;
    padding-right: 320px;
 }
 
 .sec2 .title{
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
     padding-left: 300px;
     padding-right: 200px;
 
