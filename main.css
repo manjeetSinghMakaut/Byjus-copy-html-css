@@ -296,7 +296,7 @@ input:focus {
 }
 /* ------------------------------------------sec2----------------------------- */
 .sec2{
-    height: 557px;
+    height: 900px;
     
 }
 .sec2 h2{
@@ -314,4 +314,132 @@ input:focus {
     padding-left: 300px;
     padding-right: 200px;
 
+}
+/* ------------------card class 4----- */
+.sec2 .card-class-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 30px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    position: relative;
+    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
+}
+.sec2 .class-4{
+
+    background-image: linear-gradient(to right, #5C72FF, #8C3FFF);
+    color: white;
+    position: absolute;
+    top: 0;
+    padding: 5px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+.sec2 .new{
+    position: absolute;
+    top: 10% ;
+    background: #fec004;
+    padding: 5.5px 5.5px;
+    font-weight: 700;
+    color: #070500;
+    left: 90%;
+    border-radius: 5.5px;
+
+}
+.sec2 .triangle{
+    position: absolute;
+    top: 10.4%;
+    left: 88.15%;
+    color: #fec004;
+    transform: rotate(150deg);
+    font-size: 33px;
+    margin-top: 1.45px;
+}
+.sec2 .left, .right{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin-top: 10px;
+}
+.sec2 .left .img{
+   margin-left: 20px;
+
+}
+.sec2 .left .text img{
+    width: 10rem;
+    margin-left: 4rem;
+    margin-top: -2.5rem;
+}
+.sec2 .left .img img{
+    width: 10rem;
+    margin-left: 1rem;
+    max-width: 220px;
+    height: 200px;
+    width: 180px;
+    }
+.sec2 .left .text p{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #2c2c2d;
+    margin: 10px 0 10px 0;
+}  
+.sec2 .left h4{
+    text-align: center;
+    color: #2c2c2d;
+    margin-left: -2rem;
+    margin-top: 10px;
+}
+   
+.sec2 .right .img{
+    margin-left: 20px;
+ 
+ }
+ .sec2 .right .img img{
+ width: 10rem;
+ }
+
+
+ .sec2 .right .text img{
+     width: 10rem;
+ }
+.sec2 .right .text p{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #2c2c2d;
+    margin: 10px 0 10px 0;
+}
+
+.sec2 .line{
+    position: absolute;
+    width: 2px;
+    height: 130px;
+    top: 80px;
+    left: 50%;
+    color: #d9d9d9;
+    display: block;
+    box-shadow: #cac6c6 2px 0;
+    background: #fff;
 }
