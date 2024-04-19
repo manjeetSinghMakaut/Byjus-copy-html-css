@@ -297,7 +297,7 @@ input:focus {
 }
 /* ------------------------------------------sec2----------------------------- */
 .sec2{
-    height: 900px;
+    height: 1600px;
     
 }
 .sec2 h2{
@@ -354,6 +354,7 @@ input:focus {
     border-bottom-right-radius: 10px;
     font-size: 16px;
     text-align: center;
+    font-weight: 700;
 
 
 }
@@ -435,9 +436,11 @@ input:focus {
  
  }
  .sec2 .right .img img{
-    height: 165px;
-    width: 187px;
- }
+    height: 195px;
+    width: 204px;
+    margin-bottom: 30px;
+}
+ 
 
 
  .sec2 .right .text img{
@@ -489,3 +492,266 @@ input:focus {
     min-width: 170px;
     text-align: center;
 }
+
+ .sec2 .card-class-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 920px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 30px;
+    height: 322px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    gap:83px;
+    position: relative;
+    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
+}
+ .sec2 .class-5{
+    background-image: linear-gradient(to right, #5C72FF, #8C3FFF);
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 150px;
+    padding: 5px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+
+}
+.sec2 .card-class-5 .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.sec2 .card-class-5 .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+ .sec2 .card-class-5 .jee-img,.neet-img{
+    width: 220px;
+    display: inline-block;
+ }
+ .sec2 .left p{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    font-family: Roboto;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #2c2c2d;
+    margin: 10px 0px ;
+    padding-left: 30px;
+    padding-right: 14px;
+   
+ }
+ .sec2 .right p{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    font-family: Roboto;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #2c2c2d;
+    margin: 10px 0px ;
+    padding-left: 9px;
+    padding-right: 5px;
+ }
+ .sec2 .card-class-5 .Explore-jee-button,.Explore-neet-button{
+
+    
+    cursor: pointer;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #ff9234, #fc6274 100%);
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    outline: 0;
+    min-width: 170px;
+    text-align: center;
+    
+
+ }
+ .sec2 .line-2{
+    position: absolute;
+    width: 2px;
+    height: 82px;
+    top: 193px;
+    left: 50%;
+    color: #d9d9d9;
+    display: block;
+    box-shadow: #cac6c6 2px 0;
+    background: #fff;
+}
+.card-class-5 .line-2 img{
+    height: 88px;
+    position: absolute;
+    top: -9.5rem;
+    right: -3.5rem;
+}
+
+/* ------------------------------------------------------------- */
+.sec2 .card-class-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: row;
+    
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 30px;
+    height: 310px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px 20px;
+    position: relative;
+    gap: 30px;
+    width: 100%;
+    
+
+}
+.sec2 .card-class-6 .left-card-class-6{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+    padding: 0px 20px;
+    width: 50%;
+    margin: 20px 0px 30px;
+    background-color: #f2f2f2;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
+
+
+}
+.sec2 .card-class-6 .right-card-class-6{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 310px;
+    width: 50%;
+    padding: 15px 0px;
+    background-color: #f2f2f2;
+    margin: 20px 0px 30px;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: 0 27px 20px -19px rgb(122 62 134 / 31%);
+    margin-right: 4rem;
+}
+.card-class-6-left-img{
+    min-width: 210px;
+    height: 150px;
+}
+.card-class-6-left-text ,.card-class-6-right-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.byjus-early-logo{
+    width: 120px;
+    margin-top: 15px;
+}
+.left-card-class-6 .class-6{
+    background-image: linear-gradient(to right, #5C72FF, #8C3FFF);
+    color: white;
+    position: absolute;
+    top: -0.4rem;
+    width: 150px;
+    padding: 5px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+
+}
+.right-card-class-6 .class-6{
+    background-image: linear-gradient(to right, #5C72FF, #8C3FFF);
+    color: white;
+    position: absolute;
+    top: -0.4rem;
+    width: 150px;
+    padding: 5px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+.card-class-6-right-img img{
+    min-width: 210px;
+    height: 201px;
+}
+
+.card-class-6-right-text img{
+    width: 130px;
+    margin-top: 30px !important;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card-class-6-left-text p{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #2c2c2d;
+    margin: 10px 0 10px 0;
+}
+.card-class-6-right-text p{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #2c2c2d;
+    margin: 10px 0 10px 0;
+}
+
+ .sec2 .card-6-button{
+    font-size: 15px;
+    background-image: linear-gradient(to right, #ff9234, #fc6274 100%);
+    color: #fff;
+    min-width: 170px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border-width: initial;
+    margin-top: 20px;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: 0;
+    display: inline-block;
+    cursor: pointer;
+ }
