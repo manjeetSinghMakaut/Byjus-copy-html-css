@@ -297,7 +297,7 @@ input:focus {
 }
 /* ------------------------------------------sec2----------------------------- */
 .sec2{
-    height: 1900px;
+    height: 2700px;
     
 }
 .sec2 h2{
@@ -620,7 +620,6 @@ input:focus {
     
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 30px;
     height: 310px;
     border-radius: 10px;
     background-color: white;
@@ -761,12 +760,9 @@ input:focus {
  }
 /* --------------------------------------------------------- */
 .sec2 .container{
-    padding-right: 12px;
-    padding-left: 2px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 64px;
-    position: relative;
+    padding: 30px;
+    width: 970px;
+    
     
     
 } 
@@ -774,20 +770,23 @@ input:focus {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  
+    
     
    
     
 }
 .sec2 .container-img{
-    width: 250px;
+    width: 295px;
 }
 .sec2 .container-p{
-    font-size: 22px;
+    font-size: 25px;
     line-height: 32px;
     margin-top: 20px;
     color: #333;
-    padding-left: 55px;
+    padding-left: 20px;
     padding-right: 35px;  
     
 }
@@ -798,15 +797,124 @@ text-align: center;
 padding: 0px 15px ;
 
 }
-.container-title h2{
+.sec2 .container-title {
     text-align: center;
-   
+    color: rgb(44, 44, 44);
+    font-weight: 500;
+    margin: 20px 0px 50px;
+    font-size: 32px;
+    line-height: 1.1;
+    padding-left:1px;
+    padding-right: 1px; 
+    margin-top: 31px; 
     
-    padding-left: 320px;
-    padding-right: 320px;
-    color: #2c2c2c;
-    font-weight: 600;
-    line-height: 1.18;
-    margin-bottom: 10px !important;
-    font-size: 29px;
+}
+/* ------------------------------------------------------------------ */
+.sec2 .container-parent-student{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 30px 0;
+    width: 970px;
+    position: relative;
+}
+
+ .sec2 .byjus-statics{
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    margin-top: 66px;
+    margin-bottom: 90px;
+    
+}
+.sec2 .inner-divs{
+    text-align: center;
+    width: 25%;
+}
+.sec2 .inner-divs-img{
+    height: 42px;
+    margin: 0px 0px 20px;
+}
+.sec2 .inner-count{
+    font-size: 30px;
+    line-height: 26px;
+    color: #813588;
+    font-weight: 700;
+}
+
+.sec2 .inner-name{
+    font-size: 18px;
+    line-height: 26px;
+    color: #333;
+    font-weight: 500;
+}
+.sec2 .container-parent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+
+}
+.sec2 .container-parent-div-img{
+    
+    max-width: 136px;
+    height: 136px;
+    cursor: pointer;
+}
+.sec2 .container-parent-div{
+    
+    text-align: center;
+    width: 30%;
+    padding-left: 99px;
+    padding-right: 10px;
+    position: relative;
+}
+.sec2 .help-made{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.sec2 .introduction{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2px;
+    color: #333;
+    font-weight: 700;
+}
+.sec2 .class-location{
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    margin: .75rem 0;
+
+} 
+.sec2 .play-button{
+    position: absolute;
+    right: 47px;
+    bottom: 147px;
+    max-width: 80px;
+    height: 50px;
+    z-index: 5;
+    cursor: pointer;
+}
+.sec2 .left-button{
+ position: absolute;
+ width: 30px;
+height: auto;
+transform: rotate(-180deg);
+left: 8%;
+    bottom: 54%;
+    cursor: pointer;
+}
+.sec2 .right-button{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    right: -130%;
+    bottom: 54%;
+    cursor: pointer;
+    
+    
 }
