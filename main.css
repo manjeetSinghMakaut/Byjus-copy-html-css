@@ -338,7 +338,7 @@ input:focus {
 }
 /* ------------------------------------------sec2----------------------------- */
 .sec2{
-    height: 4000px;
+    height: 3390px;
     
 }
 .sec2 h2{
@@ -978,9 +978,14 @@ left: 8%;
     text-align: center;
     margin-top: 60px;
 }
+
+/* --------------------------------------- */
+
 .sec2 .last-container{
     width: 1170px;
     margin-top: 65px;
+    position: relative;
+    height: 688px;
    
     
 
@@ -998,8 +1003,10 @@ flex-direction: column;
 white-space: normal;
 position: relative;
 padding: 15px;
-height: 421px;
+height: 413px;
 cursor: pointer;
+overflow: hidden;
+margin-right: 2px;
 
 }
 .sec2 .last-inner-container-img{
@@ -1055,16 +1062,50 @@ cursor: pointer;
    
 }
 .sec2 .button-of-last-container{
-    font-size: 16px;
-    padding: 13px 40px;
+    font-size: 17px;
+    padding: 17px 40px;
     color: #fff;
     text-align: center;
-    font-weight: 500;
+    font-weight: 700;
     background-image: linear-gradient(to right, #ff9234, #fc6274 100%);
     border-radius: 10px;
     height: 54px;
     width: 180px;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 420px;
     cursor: pointer;
 }
+.last-img{
+    max-width: 125px;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 450px;
+}
+
+.left-side-angle{
+    width: 22px;
+    height: 30px;
+    transform: rotate(180deg);
+    margin-left: 10px;
+    opacity: 0.3;
+}
+
+.footer{
+    height: 1000px;
+   background-color: #813588;
+   margin-top: -5px;
+}
+.last-img-curve{
+    background-size: 100%;
+    background-position: left bottom;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    width: 100vw;
+    height: 100%;
+    z-index: 100;
+   
+}
+
