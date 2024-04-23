@@ -181,7 +181,7 @@ input:focus {
 .buttons-on-off{
     display: block;
 }
-.buttons-on-off .schdule-button{
+.buttons-on-off .schdule-button-left,.schdule-button-right{
     width: 49%;
     height: 40px;
     background: #fcfcfc;
@@ -193,7 +193,48 @@ input:focus {
     font-weight: 500;
     text-decoration: none;
     cursor: pointer;
+    position: relative;
 }
+.schdule-button-left:active, 
+.schdule-button-left:focus 
+{
+    border: 1.5px solid  #800080;
+  
+  
+ }
+ .schdule-button-right:active, 
+ .schdule-button-right:focus 
+ {
+    border: 1.5px solid  #800080;
+  }
+
+  .schdule-button-left-img:active ~ .schdule-button-img, 
+.schdule-button-left-img:focus 
+{
+    opacity: 1;
+ }
+ .schdule-button-right-img:active ~.schdule-button-img-left
+ {
+    opacity: 1;
+  }
+  .schdule-button-img-right{
+
+    width: 15px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -180px;
+   
+    
+  }  
+  .schdule-button-img-left{
+
+    width: 15px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -180px;
+    
+  }    
+ 
 .form .lowest{
     font-size: 1rem;
     font-weight: 600;
@@ -297,7 +338,7 @@ input:focus {
 }
 /* ------------------------------------------sec2----------------------------- */
 .sec2{
-    height: 2700px;
+    height: 4000px;
     
 }
 .sec2 h2{
@@ -915,6 +956,115 @@ left: 8%;
     right: -130%;
     bottom: 54%;
     cursor: pointer;
+ 
+}
+.container-parents-students-button{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    background-image: linear-gradient(to right, #5c72ff, #8c3fff);
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: #fff;
+    border: none;
+    outline: 0;
+    width: 291px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+.sec2 .container-parents-students-button-div{
+    text-align: center;
+    margin-top: 60px;
+}
+.sec2 .last-container{
+    width: 1170px;
+    margin-top: 65px;
+   
+    
+
     
     
+}
+.sec2 .last-inner-container-div{
+    width: 250px;
+background-color: #f2f2f2;
+box-shadow: 0 27px 20px -15px rgb(122 62 134 / 31%);
+margin: 0 12px;
+border-radius: 10px;
+display: inline-flex;
+flex-direction: column;
+white-space: normal;
+position: relative;
+padding: 15px;
+height: 421px;
+cursor: pointer;
+
+}
+.sec2 .last-inner-container-img{
+    width: 220px;
+    height: 220px;
+    
+}
+.sec2 .class-of-byjus{
+    color: #84378a;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sec2 .details-class{
+    color: #2c2c2c;
+    font-weight: 600;
+    line-height: 1.44;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sec2 .read-more{
+    color: #84378a !important;
+    font-weight: 600 !important;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.sec2 .under-read-more{
+    margin-top: 0;
+    margin-bottom: 12px;
+    border-top: 2px solid #84378a;
+    width: 76px;
+}
+
+
+.sec2 .heading-of-last{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 33px;
+    color: #333;
+    margin-left: 280px;
+    margin-bottom: 50px;
+    
+    
+    
+    
+}
+.paragraph-of-last-container{
+    text-align: center;
+   
+}
+.sec2 .button-of-last-container{
+    font-size: 16px;
+    padding: 13px 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #ff9234, #fc6274 100%);
+    border-radius: 10px;
+    height: 54px;
+    width: 180px;
+    margin-top: 50px;
+    margin-left: 400px;
+    cursor: pointer;
 }
