@@ -13,7 +13,7 @@ body{
     max-width: 100vw;
     overflow-x: hidden;
     height:100%;
-     width:100%;
+    width:100%;
     
 }
 
@@ -217,23 +217,7 @@ input:focus {
  {
     opacity: 1;
   }
-  .schdule-button-img-right{
-
-    width: 15px;
-    position: absolute;
-    margin-top: 2px;
-    margin-left: -180px;
-   
-    
-  }  
-  .schdule-button-img-left{
-
-    width: 15px;
-    position: absolute;
-    margin-top: 2px;
-    margin-left: -180px;
-    
-  }    
+  
  
 .form .lowest{
     font-size: 1rem;
@@ -1074,7 +1058,7 @@ margin-right: 2px;
 }
 /* -------------------------------------------------------------------------- */
 .footer{
-    height: 2550px;
+    
    background-color: #813588;
    margin-top: -5px;
     display: flex;
@@ -1092,6 +1076,7 @@ margin-right: 2px;
     flex-direction:row;
     width: 1170px;
     justify-content: center;
+    margin-top: 40px;
     
 }
 
@@ -1111,11 +1096,11 @@ margin-right: 2px;
 
 .footer-div{
  width: 14%;
- position: relative;
+ 
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    margin-top: 10px;
+   
     
 }
 
@@ -1166,7 +1151,7 @@ ul {
     
 }
 .lower-section-footer{
-    padding: 0px 69px;
+    
     width: 100%;
     
     display: flex;
@@ -1181,25 +1166,8 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 }
-.footer-p1{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-.footer-p2{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-.footer-p3{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-.footer-p4{
+
+.footer-p4,.footer-5-5,.footer-p3,.footer-p10 ,.footer-p6{
     color: #fff;
     font-size: 13px;
     line-height: 1.6;
@@ -1211,135 +1179,33 @@ ul {
     line-height: 1.6;
     margin-bottom: 10px;
 }
-.footer-5-5{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-.footer-p6{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-.footer-p7{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-.footer-p8{
+
+
+.footer-p8,.footer-p9,.footer-p14{
     color: #fff;
     font-size: 13px;
     line-height: 1.6;
 }
-.footer-p9{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-}
-.footer-p10{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-.footer-p11{
+
+.footer-p11,.footer-p12,.footer-p13.footer-p6,.footer-p1 ,.footer-p13{
     color: #fff;
     font-size: 13px;
     line-height: 1.6;
     margin-bottom: 10px;
 }
-.footer-p12{
+
+
+.footer-p15,.footer-p16,.footer-p7,.footer-p2{
     color: #fff;
     font-size: 13px;
     line-height: 1.6;
-    margin-bottom: 10px;
-}
-.footer-p13{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-.footer-p14{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    
-}
-.footer-p15{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-.footer-p16{
-    color: #fff;
-    font-size: 13px;
-    line-height: 2;
     margin-bottom: 20px;
 }
 
-.footer-h1{
-    color: #ffc846;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px;
 
-}
-.footer-h2{
-    color: #ffc846;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.footer-h3{
-    color: #ffc846;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.footer-h4{
-    color: #ffc846;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.footer-h5{
-    color: #ffc846;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.footer-h6{
-    color: #ffc846;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.footer-h7{
-    color: #ffc846;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.footer-h8{
-    color: #ffc846;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.footer-h9{
+
+
+.footer-h3,.footer-h4,.footer-h5,.footer-h6,.footer-h7,.footer-h8,.footer-h9,.footer-h1,.footer-h2{
     color: #ffc846;
     font-size: 14px;
     font-weight: 400;
@@ -1370,3 +1236,5 @@ ul {
     margin-left: 480px;
     font-size: 13px;
 }
+
+
